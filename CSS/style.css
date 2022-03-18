@@ -1,0 +1,597 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'VT323', monospace;    
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+header{
+    padding: 25px;
+    padding-left: 40px;
+    margin: auto;
+    width: auto;
+    background-color: #8A2BE2;
+    color: yellow;
+    font-size: 20px;
+}
+
+#logos{
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    top: 30px;
+    width: 40px;  
+}
+
+main{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    width: 800px;
+    margin: auto;
+    background-color: #000000;
+}
+
+#campText{
+    resize: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    margin: auto;
+    width: 800px;
+    height: 350px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.bottuns{
+    display: flex;
+    margin: auto;
+
+   
+    padding-top: 20px;
+    padding-bottom:20px;
+
+    text-align: center;
+   
+}
+
+#upperBotton{
+    margin: auto;
+    padding: auto;
+
+    text-align: center;
+    font-size: 20px;
+    background-color:#8A2BE2;
+    width: 100px;
+    height: 40px;  
+}
+
+#upperBotton:hover{
+    background-color: #9370DB;
+}
+
+#lowernBotton{
+    margin: auto;
+    padding: auto;
+
+    text-align: center;
+    font-size: 20px;
+    background-color:#8A2BE2;
+    width: 100px;
+    height: 40px;
+}
+
+#lowernBotton:hover{
+    background-color: #9370DB;
+}
+
+#capBotton{
+
+    margin: auto;
+    padding: auto;
+
+    text-align: center;
+    font-size: 20px;
+    background-color:#8A2BE2;
+    width: 100px;
+    height: 40px;
+}
+
+#capBotton:hover{
+    background-color: #9370DB;
+}
+
+#copBotton{
+
+    margin: auto;
+    padding: auto;
+
+    text-align: center;
+    font-size: 20px;
+    background-color:#8A2BE2;
+    width: 100px;
+    height: 40px;
+}
+#copBotton:hover{
+    background-color: #9370DB;
+}
+#limpBotton{
+
+    margin: auto;
+    padding: auto;
+
+    text-align: center;
+    font-size: 20px;
+    background-color:#8A2BE2;
+    width: 100px;
+    height: 40px;
+}
+
+#limpBotton:hover{
+    background-color: #9370DB;
+}
+
+#ropdape{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 8px;
+    font-size: 12px;
+
+    color: yellow;
+}
+
+
+@media screen and (max-width:960px) {
+    main{
+        padding-top: 20px;
+        margin-bottom: 10px;
+        width: 800px;
+        margin: auto;
+        background-color: #000000;
+    }
+
+    #logos{
+       
+        left: 85%;
+         
+    }
+    header{
+        width: 100%;
+    }
+
+    #campText{
+        margin: auto;
+        width: 600px;
+        height: 300px;
+    }
+
+    .bottuns{
+        padding: auto;
+        display: block;
+        margin: auto;  
+    }
+
+    #upperBotton{
+        width: 80px;
+        font-size: 18px;  
+    }
+    
+    #lowernBotton{
+         width: 80px;
+        font-size: 18px;  
+    }
+
+     #capBotton{
+    
+         width: 80px;
+        font-size: 18px;  
+    }
+    
+    #copBotton{
+    
+         width: 80px;
+        font-size: 18px;  
+    }
+    
+    #limpBotton{
+    
+         width: 80px;
+        font-size: 18px;  
+    }
+   
+    #ropdape{
+        margin-top: 0px;
+        
+    }
+}
+
+@media screen and (max-width:785px) {
+
+    main{
+        padding-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin: auto;
+        background-color: #000000;
+    }
+
+}
+
+@media screen and (max-width:660px) {
+
+    main{
+        padding-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin: auto;
+        background-color: #000000;
+    }
+
+    #campText{
+        margin: auto;
+        width: 500px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width:601px) {
+
+    main{
+        padding-top: 20px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin: auto;
+        background-color: #000000;
+    }
+
+    header{
+        padding: 20px;
+        padding-left: 40px;
+        margin: auto;
+        width: auto;
+        background-color: #8A2BE2;
+        color: yellow;
+        font-size: 15px;
+    }
+
+    #campText{
+        margin: auto;
+        width: 500px;
+        height: 250px;
+    }
+
+    .bottuns{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom:15px;
+        text-align: center;
+       
+    }
+
+    #upperBotton{
+        width: 70px;
+        font-size: 15px;  
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    #lowernBotton{
+         width: 70px;
+        font-size: 15px;
+    }
+
+     #capBotton{
+    
+         width: 70px;
+        font-size: 15px;
+    }
+    
+    #copBotton{
+    
+         width: 70px;
+        font-size: 15px;
+    }
+
+    #limpBotton{
+    
+         width: 70px;
+        font-size: 15px;
+    }
+   
+    #logos{
+       
+        
+        top: 20px;  
+    }
+
+    #ropdape{
+        margin-top: -1px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    #campText{
+        margin: auto;
+        width: 400px;
+        height: 200px;
+    }
+
+    .bottuns{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom:15px;
+        text-align: center;
+       
+    }
+
+    #upperBotton{
+        width: 60px;
+        font-size: 12px;
+    }
+    
+    #lowernBotton{
+         width: 60px;
+        font-size: 12px;
+    }
+
+     #capBotton{
+    
+         width: 60px;
+        font-size: 12px;
+    }
+    
+    #copBotton{
+    
+        width: 60px;
+        font-size: 12px;
+    }
+
+    #limpBotton{
+    
+        width: 60px;
+        font-size: 12px;
+    }
+   
+    #logos{
+       
+        
+        top: 20px;  
+    }
+
+    #ropdape{
+        margin-top: -1px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:550px) {
+
+    #campText{
+        margin: auto;
+        width: 400px;
+        height: 200px;
+    }
+
+    .bottuns{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        padding-top: 15px;
+        padding-bottom:15px;
+        text-align: center;
+       
+    }
+
+    #upperBotton{
+        width: 60px;
+        font-size: 12px;
+    }
+    
+    #lowernBotton{
+         width: 60px;
+        font-size: 12px;
+    }
+
+     #capBotton{
+    
+         width: 60px;
+        font-size: 12px;
+    }
+    
+    #copBotton{
+    
+        width: 60px;
+        font-size: 12px;
+    }
+  
+    #limpBotton{
+    
+        width: 60px;
+        font-size: 12px;
+    }
+   
+    #logos{
+       
+        
+        top: 20px;  
+    }
+
+    #ropdape{
+        margin-top: -1px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    header{
+        padding: 25px;
+        padding-left: 40px;
+        margin: auto;
+        width: auto;
+        background-color: #8A2BE2;
+        color: yellow;
+        font-size: 12px;
+    }
+
+    #logos{
+       
+        width: 25px ;
+        top: 30px;  
+    }
+
+    #campText{
+        margin-top: 550px;
+        margin: auto;
+        width: 300px;
+        height: 150px;
+    }
+
+    .bottuns{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        padding-top: 15px;
+        padding-bottom:15px;
+        text-align: center;
+       
+    }
+
+    #upperBotton{
+        width: 45px;
+        font-size: 8px;
+        height: 30px;
+    }
+    
+    #lowernBotton{
+        width: 45px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+     #capBotton{
+    
+        width: 45px;
+        height: 30px;
+        font-size: 8px;
+    }
+    
+    #copBotton{
+    
+        width: 45px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    #limpBotton{
+    
+        width: 45px;
+        height: 30px;
+        font-size: 8px;
+    }
+   
+    #logos{
+       
+        width: 25px ;
+        top: 25px;  
+    }
+
+    #ropdape{
+        margin-top: 15px;
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+
+    header{
+        padding: 25px;
+        padding-left: 40px;
+        margin: auto;
+        width: auto;
+        background-color: #8A2BE2;
+        color: yellow;
+        font-size: 10px;
+    }
+
+    #logos{
+       
+        width: 25px ;
+        top: 30px;  
+    }
+
+    #campText{
+        margin: auto;
+        width: 200px;
+        height: 100px;
+    }
+
+    .bottuns{
+        display: inline-block;
+        width: 50%;
+        margin-left: 25%;
+        padding-top: 15px;
+        padding-bottom:15px;
+        text-align: center;
+       
+    }
+
+    #upperBotton{
+        width: 35px;
+        font-size: 6px;
+        height: 20px;
+    }
+    
+    #lowernBotton{
+        width: 35px;
+        font-size: 6px;
+        height: 20px;;
+    }
+
+     #capBotton{
+        width: 35px;
+        font-size: 6px;
+        height: 20px;
+    }
+    
+    #copBotton{
+    
+        width: 35px;
+        font-size: 6px;
+        height: 20px;
+    }
+    
+    #limpBotton{
+    
+        width: 35px;
+        font-size: 6px;
+        height: 20px;
+    }
+   
+    #logos{
+       
+        width: 25px ;
+        top: 25px;  
+    }
+
+    #ropdape{ 
+        margin-top: -1px;
+        font-size: 6px;
+    }
+}
